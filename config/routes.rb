@@ -1,3 +1,5 @@
 Spree::Core::Engine.routes.draw do
-  # Add your extension routes here
+  if Rails.env.development?
+    mount MailPreview => 'mail_view'
+  end
 end
