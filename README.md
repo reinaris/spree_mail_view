@@ -14,3 +14,8 @@ group :development do
   gem 'spree_mail_view', :github => 'reinaris/spree_mail_view'
 end
 ```
+
+run bundle.
+
+After that, visit:
+http://localhost/mail_view
