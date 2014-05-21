@@ -9,5 +9,7 @@ Installation
 Add spree_mail_view to your Gemfile:
 
 ```ruby
-gem 'spree_mail_view', :github => 'reinaris/spree_mail_view'
+group :development do
+  gem 'spree_mail_view', :github => 'reinaris/spree_mail_view'
+end
 ```
