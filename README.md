@@ -6,7 +6,7 @@ Use mail_view (https://github.com/basecamp/mail_view) from Basecamp to test your
 Installation
 ------------
 
-Add spree_mail_view to your Gemfile:
+Add mail_view and spree_mail_view to your Gemfile:
 
 ```ruby
 group :development do
@@ -19,3 +19,9 @@ run bundle.
 
 After that, visit:
 http://localhost/mail_view
+
+You can test the following e-mails in your browser without resending them (just refresh):
+- Order confirm email
+- Order cancel email
+- Shipment shipped email
+- Forgot password email
