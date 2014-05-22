@@ -20,7 +20,7 @@ run bundle.
 After that, visit:
 http://localhost/mail_view
 
-You can test the following e-mails in your browser without resending them (just refresh):
+You can test the following e-mails in your browser without resending them (just hit refresh):
 - Order confirm email
 - Order cancel email
 - Shipment shipped email
