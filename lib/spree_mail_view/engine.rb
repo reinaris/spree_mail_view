@@ -1,3 +1,5 @@
+require 'mail_view'
+
 module SpreeMailView
   class Engine < Rails::Engine
     require 'spree/core'
